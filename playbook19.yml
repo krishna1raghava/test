@@ -1,0 +1,15 @@
+---
+
+- hosts: dev
+  become_user: root
+  tasks:
+    - name: install apache
+      apt: 
+       name: apache2 
+       state: latest
+
+
+
+
+
+
